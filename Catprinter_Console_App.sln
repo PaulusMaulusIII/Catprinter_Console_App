@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluetooth_Console_App", "Bluetooth_Console_App.csproj", "{4670B4CC-6971-4D40-B1BD-5E0FC75A4AF5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catprinter_Lib", "..\Catprinter_Lib\Catprinter_Lib.csproj", "{26B0A58A-3ED7-4627-8DB0-5C152128E8BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catprinter_Console_App", "Catprinter_Console_App.csproj", "{7E7A5FFD-B198-4FEE-849D-76FE4F4C0358}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4670B4CC-6971-4D40-B1BD-5E0FC75A4AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4670B4CC-6971-4D40-B1BD-5E0FC75A4AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4670B4CC-6971-4D40-B1BD-5E0FC75A4AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4670B4CC-6971-4D40-B1BD-5E0FC75A4AF5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{26B0A58A-3ED7-4627-8DB0-5C152128E8BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{26B0A58A-3ED7-4627-8DB0-5C152128E8BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26B0A58A-3ED7-4627-8DB0-5C152128E8BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26B0A58A-3ED7-4627-8DB0-5C152128E8BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E7A5FFD-B198-4FEE-849D-76FE4F4C0358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7A5FFD-B198-4FEE-849D-76FE4F4C0358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7A5FFD-B198-4FEE-849D-76FE4F4C0358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7A5FFD-B198-4FEE-849D-76FE4F4C0358}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
