@@ -11,7 +11,7 @@
     <PackageReference Include="InTheHand.BluetoothLE" Version="4.0.37" />
     <PackageReference Include="InTheHand.Net.Bluetooth" Version="4.1.44" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.1" />
-    <PackageReference Include="System.Drawing.Common" Version="9.0.1" />
+    <PackageReference Include="Uno.WinUI" Version="5.6.33" />
   </ItemGroup>
 
   <ItemGroup>

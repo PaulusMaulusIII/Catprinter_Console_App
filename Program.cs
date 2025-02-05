@@ -1,11 +1,11 @@
-﻿using System.Drawing;
+﻿using System.Diagnostics;
+using System.Drawing;
 using Catprinter.Utils;
 using InTheHand.Net;
 using InTheHand.Net.Sockets;
-
 namespace Catprinter
 {
-    class Program
+    class App
     {
         static async Task Main(String[] args)
         {
@@ -13,6 +13,7 @@ namespace Catprinter
             Bitmap img = ImageProcessing.ReadImg("test.png", PrinterCommands.PRINT_WIDTH, "floyd-steinberg");
             img.Save("processed_image.jpg");
             Console.WriteLine("Image Data Generated");
+            Process.Start("explorer.exe","processed_image.jpg");
 
             Console.Write("Continue [Y,n]: ");
             if (Console.ReadLine().ToUpper().Equals("N"))
@@ -69,7 +70,6 @@ namespace Catprinter
             stream.Write(PrinterCommands.GetImgPrintCmd(img));
             Console.WriteLine("Commands sent");
             Thread.Sleep(30000);
-
 
             stream.Close();
             client.Close();
