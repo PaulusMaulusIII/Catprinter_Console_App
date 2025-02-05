@@ -1,6 +1,7 @@
 ﻿using System.Drawing;
 using InTheHand.Net;
 using InTheHand.Net.Sockets;
+using Catprinter_Lib;
 
 class Program
 {

@@ -15,6 +15,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Catprinter_Lib\Catprinter_Lib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="test.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
