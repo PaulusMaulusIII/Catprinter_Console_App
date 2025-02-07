@@ -10,7 +10,7 @@ namespace Catprinter
         static async Task Main(String[] args)
         {
             Console.WriteLine("Generating Image Data");
-            Bitmap img = ImageProcessing.ReadImg("test.png", PrinterCommands.PRINT_WIDTH, "floyd-steinberg");
+            Bitmap img = ImageProcessing.ReadImg("test.png", PrinterCommands.PRINT_WIDTH, "floyd-steinberg", true);
             img.Save("processed_image.jpg");
             Console.WriteLine("Image Data Generated");
             Process.Start("explorer.exe","processed_image.jpg");
