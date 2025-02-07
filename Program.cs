@@ -67,7 +67,7 @@ namespace Catprinter
             Stream stream = client.GetStream();
             Console.WriteLine("Connected to printer");
             Console.WriteLine("Generating and sending commands");
-            stream.Write(PrinterCommands.GetImgPrintCmd(img));
+            stream.Write(PrinterCommands.GetImgPrintCmd(img,0xffff));
             Console.WriteLine("Commands sent");
             Thread.Sleep(30000);
 
